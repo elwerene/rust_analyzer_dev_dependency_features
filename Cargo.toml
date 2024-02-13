@@ -1,0 +1,6 @@
+[workspace]
+members = ["traits", "foo"]
+resolver = "2"
+
+[workspace.dependencies]
+traits.path = "traits"

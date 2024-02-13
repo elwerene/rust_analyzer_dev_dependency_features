@@ -1,0 +1,8 @@
+[package]
+name = "foo"
+
+[dependencies]
+traits.workspace = true
+
+[dev-dependencies]
+traits = { workspace = true, features = ["test"] }
